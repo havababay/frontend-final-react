@@ -7,7 +7,7 @@ export default function Header() {
     <AppBar>
       <Toolbar>
         <Typography variant="h6" component="div">
-          Header
+          Grade Insight
         </Typography>
       </Toolbar>
     </AppBar>
