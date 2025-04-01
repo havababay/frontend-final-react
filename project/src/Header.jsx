@@ -55,6 +55,10 @@ export default function Header() {
                 <ListItemText primary="Help" />
               </NavLink>
             </ListItem>
+            <ListItem onClick={() => handleNavigation("/students")}>
+              <ListItemText primary="Students">
+              </ListItemText>
+            </ListItem>
           </List>
         </div>
       </Drawer>

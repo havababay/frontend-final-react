@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Help from './Help.jsx'
+import StudentsList from './StudentsList.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/students" element={<StudentsList />} />
       </Routes>
     </>
   )
